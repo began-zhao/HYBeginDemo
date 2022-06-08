@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffd9928d-813b-47a7-aae6-1a9bc8b4eaad" name="Changes" comment="基本设计模式demo;&#10;完成使用maven插件创建docker镜像并推送到阿里云仓库；&#10;测试前需要先下载Windows的docker;">
+      <change beforePath="$PROJECT_DIR$/BasicTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BasicTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicTest/src/main/resources/Copy.html" beforeDir="false" afterPath="$PROJECT_DIR$/BasicTest/src/main/resources/Copy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DockerfileDemo/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicTest/src/main/java/com/begin/mydemo/config/SwaggerConfig.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicTest/src/main/java/com/begin/mydemo/config/ConsumerMethodMatcher.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DockerfileDemo/src/main/java/com/begin/dockerfiledemo/DockerfileDemoApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicTest/src/main/java/com/begin/mydemo/MyDemoApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicTest/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicTest/src/test/java/com/begin/mydemo/MyDemoApplicationTests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DockerfileDemo/src/main/java/com/begin/dockerfiledemo/config/ExceptionAdvice.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicTest/src/main/java/com/begin/mydemo/service/TestService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DockerfileDemo/src/main/java/com/begin/dockerfiledemo/service/impl/TestServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicTest/src/main/resources/Copy.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DockerfileDemo/src/main/docker/DockerFile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicTest/src/main/java/com/begin/mydemo/service/impl/TestServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicTest/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\HYDev\apache-maven-3.5.0\maven_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../HYDev/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\HYDev\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="22rCpYf9PwH9O65yKRvHkSW5CMn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5078197" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestServiceImpl">
+    <configuration name="TestServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.begin.mydemo.service.impl.TestServiceImpl" />
+      <module name="MyDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.begin.mydemo.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.begin.mydemo.mian" />
+      <module name="MyDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.begin.mydemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyDemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.begin.mydemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.begin.mydemo" />
+      <option name="MAIN_CLASS_NAME" value="com.begin.mydemo.MyDemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyDemoApplicationTests.testString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.begin.mydemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.begin.mydemo" />
+      <option name="MAIN_CLASS_NAME" value="com.begin.mydemo.MyDemoApplicationTests" />
+      <option name="METHOD_NAME" value="testString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsyncDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="AsyncDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.begin.asyncdemo.AsyncDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DockerfileDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="DockerfileDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.begin.dockerfiledemo.DockerfileDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="BasicTest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.begin.mydemo.MyDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestServiceImpl" />
+        <item itemvalue="Application.mian" />
+        <item itemvalue="JUnit.MyDemoApplicationTests.testString" />
+        <item itemvalue="JUnit.MyDemoApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffd9928d-813b-47a7-aae6-1a9bc8b4eaad" name="Changes" comment="" />
+      <created>1640586504965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640586504965</updated>
+      <workItem from="1640586506686" duration="716000" />
+      <workItem from="1640587614625" duration="1348000" />
+      <workItem from="1640589670173" duration="8145000" />
+      <workItem from="1640653438340" duration="413000" />
+      <workItem from="1640654059298" duration="601000" />
+      <workItem from="1640656210975" duration="20263000" />
+      <workItem from="1640742059855" duration="1755000" />
+      <workItem from="1640747034143" duration="13051000" />
+      <workItem from="1640832379743" duration="18146000" />
+      <workItem from="1640935979507" duration="5027000" />
+      <workItem from="1641262883767" duration="3184000" />
+      <workItem from="1641354023776" duration="1188000" />
+      <workItem from="1641370825749" duration="589000" />
+      <workItem from="1641371797214" duration="594000" />
+      <workItem from="1641431294416" duration="584000" />
+      <workItem from="1641435619052" duration="17673000" />
+      <workItem from="1641545780804" duration="2685000" />
+      <workItem from="1641548733693" duration="1151000" />
+      <workItem from="1641796845756" duration="291000" />
+      <workItem from="1641896005214" duration="172000" />
+      <workItem from="1644290408754" duration="1618000" />
+      <workItem from="1644374605144" duration="588000" />
+      <workItem from="1644460252955" duration="3921000" />
+      <workItem from="1646014014285" duration="47000" />
+      <workItem from="1647918832160" duration="8345000" />
+      <workItem from="1648801746602" duration="230000" />
+      <workItem from="1648805246749" duration="1392000" />
+      <workItem from="1649227028430" duration="1106000" />
+      <workItem from="1649310210232" duration="33000" />
+      <workItem from="1649660617386" duration="938000" />
+      <workItem from="1649723060774" duration="1159000" />
+      <workItem from="1649930182032" duration="2417000" />
+      <workItem from="1650250934403" duration="2453000" />
+      <workItem from="1650261341337" duration="110000" />
+      <workItem from="1650271321030" duration="1836000" />
+      <workItem from="1651044804214" duration="2676000" />
+      <workItem from="1651213429797" duration="5610000" />
+      <workItem from="1651712261675" duration="1334000" />
+      <workItem from="1651744649979" duration="1843000" />
+      <workItem from="1652342437849" duration="4103000" />
+      <workItem from="1652838309629" duration="2832000" />
+      <workItem from="1652927098441" duration="2498000" />
+      <workItem from="1653619572357" duration="272000" />
+      <workItem from="1653990257765" duration="1022000" />
+      <workItem from="1654050477647" duration="20499000" />
+    </task>
+    <task id="LOCAL-00001" summary="基本设计模式demo;&#10;完成使用maven插件创建docker镜像并推送到阿里云仓库；&#10;测试前需要先下载Windows的docker;">
+      <created>1640747612787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640747612787</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="基本设计模式demo;&#10;完成使用maven插件创建docker镜像并推送到阿里云仓库；&#10;测试前需要先下载Windows的docker;" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本设计模式demo;&#10;完成使用maven插件创建docker镜像并推送到阿里云仓库；&#10;测试前需要先下载Windows的docker;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/AsyncDemo/src/main/java/com/begin/asyncdemo/config/MyJob.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../HYDev/apache-maven-3.5.0/maven_repository/org/apache/shardingsphere/elasticjob/elasticjob-registry-center/3.0.1/elasticjob-registry-center-3.0.1.jar!/org/apache/shardingsphere/elasticjob/reg/zookeeper/ZookeeperRegistryCenter.class</url>
+          <line>55</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
